@@ -6,15 +6,18 @@
 .row {
     display: flex;
     flex-direction: column;
+     position: fixed;
+    right: 10px;
 }
+
 button {
     margin-bottom: 10px;
     height: 30px;
     width: 100px;
     padding: auto;
     text-align:center;
-    background-color: blue;
-}
+    background-color: blue;}
+   
 body {
     font-size: 12px;
     line-height:1.5;
@@ -31,6 +34,6 @@ header {
 ul {
 line-height: 2;
 }
-li {
-    list-style-type: ;
+li::marker {
+    content: '🐰';
 }

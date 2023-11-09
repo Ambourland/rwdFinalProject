@@ -1,18 +1,36 @@
 .column {
-    float: left;
-    flex: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.row {
+    display: flex;
     flex-direction: column;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear:both;
+button {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    padding: auto;
+    text-align:center;
+    background-color: blue;
 }
-.right {
-    width: 50%;
-    flex: auto;
+body {
+    font-size: 12px;
+    line-height:1.5;
 }
-.middle .left {
-    width: 25%;
-    flex: auto;
+h1, h2, h3 {
+    font-size: 2em;
+}
+header {
+    text-align: center;
+    border: 3px solid;
+    background-color: gold;
+    margin-bottom: 60px;
+}
+ul {
+line-height: 2;
+}
+li {
+    list-style-type: ;
 }

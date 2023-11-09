@@ -21,6 +21,7 @@ button {
 body {
     font-size: 12px;
     line-height:1.5;
+    background: linear-gradient(#0000ff, #00ffff, #ffff00, rgb(212, 212, 0));
 }
 h1, h2, h3 {
     font-size: 2em;
@@ -28,7 +29,8 @@ h1, h2, h3 {
 header {
     text-align: center;
     border: 3px solid;
-    background-color: gold;
+    background-color: yellow;
+    opacity: 80%;
     margin-bottom: 60px;
 }
 ul {

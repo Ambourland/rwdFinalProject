@@ -11,19 +11,24 @@
      position: fixed;
     right: 10px;
 }
-
+.underline {
+    text-decoration: underline;
+}
 button {
     margin-bottom: 10px;
     height: 30px;
     width: 100px;
     padding: auto;
     text-align:center;
-    background-color: blue;}
-   
+    background-color: blue;
+}
+button:hover {
+    background-color: yellow;
+}
 body {
     font-size: 12px;
     line-height:1.5;
-    background: linear-gradient(#0000ff, #00ffff, #ffff00, rgb(212, 212, 0));
+    background: linear-gradient(#0000ff, #00ffff, #ffff00, #d4d400);
 }
 h1, h2, h3 {
     font-size: 2em;
@@ -35,7 +40,7 @@ p {
 header {
     text-align: center;
     border: 3px solid;
-    background-color: yellow;
+    background-color: #ffff00;
     opacity: 80%;
     margin-bottom: 60px;
 }
@@ -44,4 +49,8 @@ line-height: 2;
 }
 li::marker {
     content: '🐰';
+}
+.underline:hover {
+    color: white;
+    text-decoration: none;
 }

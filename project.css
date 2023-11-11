@@ -51,6 +51,9 @@ li::marker {
     content: '🐰';
 }
 .underline:hover {
-    color: white;
+    color: blue;
     text-decoration: none;
+}
+.yellow:hover {
+    color:yellow;
 }

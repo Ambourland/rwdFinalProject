@@ -1,3 +1,5 @@
+
+
 .column {
     display: grid;
     gap: 1rem;
@@ -25,6 +27,10 @@ body {
 }
 h1, h2, h3 {
     font-size: 2em;
+    font-family: Crimson-Text;
+}
+p {
+    font-family:quicksand;
 }
 header {
     text-align: center;

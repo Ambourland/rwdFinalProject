@@ -28,7 +28,7 @@ button:hover {
 body {
     font-size: 12px;
     line-height:1.5;
-    background: linear-gradient(#0000ff, #00ffff, #ffff00, #d4d400);
+    background: linear-gradient(#0000ff, #00ffff, #2a93d4, #d4d400);
 }
 h1, h2, h3 {
     font-size: 2em;
@@ -51,9 +51,9 @@ li::marker {
     content: '🐰';
 }
 .underline:hover {
-    color: blue;
+    color: yellow;
     text-decoration: none;
 }
-.yellow:hover {
-    color:yellow;
+a {
+    color: yellow;
 }
